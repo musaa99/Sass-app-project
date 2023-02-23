@@ -39,7 +39,7 @@ const Signin = () => {
       <div className="w-full h-full flex ">
         <div className="hidden md:flex w-full max-w-[756px] h-full overflow-hidden bg-[#50F4FD0D] ">
           <div className="hidden md:flex h-full w-full items-center ">
-            <LoginBackgroundImage />
+            {/* <LoginBackgroundImage /> */}
           </div>
         </div>
 

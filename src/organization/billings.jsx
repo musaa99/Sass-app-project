@@ -20,7 +20,7 @@ export default function Billings() {
             <div className="flex items-center justify-center ">
               <ul className="list-disc text-black ">
                 <li className="">multi branch</li>
-                <li className="">access to Luchismart Mobile App</li>
+                <li className="">access to  Mobile App</li>
                 <li className="">video intercom system</li>
                 <li className="">access control</li>
                 <li className="">workflow management</li>
