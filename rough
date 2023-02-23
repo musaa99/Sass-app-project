@@ -1,0 +1,590 @@
+// // // <BrowserRouter> // <Routes> //
+// //     <Route path="/*" element={<Signin />} /> //
+// //     <Route element={<MenuBar />}> // {/*
+// //     <Route path="/dashboard" element={<SuperAdminDashboard />} /> */} //
+// //     <Route path="/dashboard" element={<StandardUserDashboard />} /> //
+// //     <Route path="/user" element={<Users />} /> {/* protected route */} //
+// //     <Route path="/user/:userId" element={<UsersProfile />} /> //
+// //     <Route path="/user/:userId/profile" element={<Profile />} /> //
+// //     <Route path="/user/:userId/notification" element={<Notification />} /> //
+// //     <Route // path="/user/:userId/emailPreference" // element={<EmailPreferences />} // /> //
+// //     <Route // path="/user/:userId/loginSecurity" // element={<LoginSecurity />} // /> //
+// //     <Route path="/team/*" element={<Teampage />} /> //
+// //     <Route path="/department" element={<Departmentpage />} /> //
+// //     <Route path="/utility" element={<Utility />} /> //
+// //     <Route path="/utility/time-attendance" element={<TimeAttendance />} /> //
+// //     <Route // path="/utility/time-attendance/attendances" // element={<Attendance />} // /> //
+// //     <Route // path="/utility/time-attendance/attendances/:month" // element={<SingleAttendance />} //change dynamic
+// //     value later // /> //
+// //     <Route // path="/utility/time-attendance/attendances/:month/day" // element={<AttendanceTable />} //change dynamic
+// //     value later // /> //
+// //     <Route // path="/utility/time-attendance/leave" // element={<EmployeeLeave />} // /> //
+// //     <Route // path="/utility/time-attendance/overtime" // element={<OverTime />} // /> //
+// //     <Route path="/utility/capacity" element={<Capacity />} /> //
+// //     <Route // path="/utility/productivity-management" // element={<ProductivityManagement />} // /> //
+// //     <Route // path="/utility/productivity-management/users-location-map" // element={<UsersLocationMap />} // /> //
+// //     <Route // path="/utility/productivity-management/jobs" // element={<Jobs />} // /> //
+// //     <Route // path="/utility/productivity-management/jobs/add-job" // element={<AddJob />} // /> //
+// //     <Route // path="/utility/productivity-management/activity" // element={<Activity />} // /> //
+// //     <Route path="/utility/occupancy" element={<OccupancyManagement />} /> //
+// //     <Route // path="/utility/occupancy/:month" // element={<OccupancySingleAttendance />} //change dynamic value later
+// //     // /> //
+// //     <Route // path="/utility/occupancy/:month/day" // element={<OccupancyAttendanceTable />} //change dynamic value
+// //     later // /> //
+// //     <Route path="/utility/help" element={<HelpSupport />} /> //
+// //     <Route path="/team/department" element={<Departmentpage />} /> //
+// //     <Route path="/team/createdepartment" element={<Createdept />} /> //
+// //     <Route // path="/team/createdepartment/departmentlist" // element={<DeptList />} // /> //
+// //     <Route path="/team/employee" element={<CurrentDept />} /> //
+// //     <Route path="/events/dailylog" element={<DailyEventlog />} /> //
+// //     <Route path="/events" element={<EventHistoryPage />} /> //
+// //     <Route path="/events/log" element={<EventlogPage />} /> //
+// //     <Route path="/utility" element={<Users />} /> //
+// //     <Route path="/report" element={<Users />} /> //
+// //     <Route path="/organization" element={<Users />} /> //
+// //     <Route path="/integration" element={<Users />} /> // </Route> //
+// //   </Routes> // </BrowserRouter>
+
+// //   // <BrowserRouter> // <Routes> //
+// //       <Route path="/*" element={<Signin />} /> //
+// //       <Route element={<MenuBar />}> //
+// //       <Route path="/dashboard" element={<StandardUserDashboard />} /> //
+// //       <Route path="/users" element={<Users />} /> //
+// //       <Route path="/users/profile" element={<Profile />} /> //
+// //       <Route path="/users/notification" element={<Notification />} /> //
+// //       <Route path="/users/emailPreference" element={<EmailPreferences />} /> //
+// //       <Route path="/users/loginSecurity" element={<Profile />} /> //
+// //       <Route path="/team/*" element={<Teampage />} /> //
+// //       <Route path="/team/createdepartment" element={<Createdept />} /> //
+// //       <Route path="/team/createdepartment/departmentlist" element={<DeptList />} /> //
+// //       <Route path="/team/createdepartment/departmentlist/addemployee" element={<Addemployee />} /> //
+// //       <Route path="/team/employee" element={<CurrentDept />} /> //
+// //       <Route path="/events/dailylog" element={<DailyEventlog />} /> //
+// //       <Route path="/events" element={<EventHistoryPage />} /> //
+// //       <Route path="/events/log" element={<EventlogPage />} /> //
+// //       <Route path="/team/department" element={<Departmentpage />} /> //
+// //       <Route path="/utility" element={<Users />} /> //
+// //       <Route path="/events" element={<Users />} /> //
+// //       <Route path="/report" element={<Users />} /> //
+// //       <Route path="/organization" element={<Users />} /> //
+// //       <Route path="/integration" element={<Users />} /> // </Route> //
+// //     </Routes> // </BrowserRouter>
+
+
+// {
+//     "status": true,
+//     "message": "Admin user created successfully",
+//     "data": {
+//         "id": "6f7c2388-7ad0-4d25-98a7-0fa7b3be4a81",
+//         "first_name": "Rudolf",
+//         "last_name": "Austin",
+//         "email": "rudolf.austin@luchismart.com",
+//         "phone_number": "09087456545",
+//         "avatar_url": "https://eu.ui-avatars.com/api/?name=Rudolf+Austin&background=random&rounded=true",
+//         "email_verified_at": "2023-01-10T15:21:44.000000Z",
+//         "last_login_at": null,
+//         "created_at": "2023-01-10T15:21:44.000000Z",
+//         "updated_at": "2023-01-10T15:21:44.000000Z",
+//         "organization": null,
+//         "permissions": [
+//             {
+//                 "id": 1,
+//                 "name": "create organizations"
+//             },
+//             {
+//                 "id": 2,
+//                 "name": "edit organizations"
+//             },
+//             {
+//                 "id": 3,
+//                 "name": "delete organizations"
+//             },
+//             {
+//                 "id": 4,
+//                 "name": "view organizations"
+//             }
+//         ]
+//     }
+// }
+
+// //  access token from login
+
+// {
+//     "status": true,
+//     "message": "Login successful",
+//     "data": {
+//         "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2FwaS1kZXYubHVjaGlzbWFydC5jb20vYXBpL3YxL2F1dGgvYWRtaW4vbG9naW4iLCJpYXQiOjE2NzMzNjQyMDksImV4cCI6MTY3Mzk2OTAwOSwibmJmIjoxNjczMzY0MjA5LCJqdGkiOiJZRjJZcUxVNGhScVBKcFZoIiwic3ViIjoiNmY3YzIzODgtN2FkMC00ZDI1LTk4YTctMGZhN2IzYmU0YTgxIiwicHJ2IjoiZGY4ODNkYjk3YmQwNWVmOGZmODUwODJkNjg2YzQ1ZTgzMmU1OTNhOSJ9.V2ydP09w3hiPs3F6YNUal5mH0CZeeTLZpA-sewThrvY",
+//         "token_type": "bearer",
+//         "expires_in": 604800,
+//         "user": {
+//             "id": "6f7c2388-7ad0-4d25-98a7-0fa7b3be4a81",
+//             "first_name": "Rudolf",
+//             "last_name": "Austin",
+//             "email": "rudolf.austin@luchismart.com",
+//             "phone_number": "09087456545",
+//             "avatar_url": "https://eu.ui-avatars.com/api/?name=Rudolf+Austin&background=random&rounded=true",
+//             "email_verified_at": "2023-01-10T15:21:44.000000Z",
+//             "last_login_at": null,
+//             "created_at": "2023-01-10T15:21:44.000000Z",
+//             "updated_at": "2023-01-10T15:21:44.000000Z",
+//             "organization": null,
+//             "permissions": [
+//                 {
+//                     "id": 1,
+//                     "name": "create organizations"
+//                 },
+//                 {
+//                     "id": 2,
+//                     "name": "edit organizations"
+//                 },
+//                 {
+//                     "id": 3,
+//                     "name": "delete organizations"
+//                 },
+//                 {
+//                     "id": 4,
+//                     "name": "view organizations"
+//                 }
+//             ]
+//         }
+//     }
+// }
+
+// // current user
+// {
+//     "status": true,
+//     "message": "User data retrieved successfully",
+//     "data": {
+//         "id": "6f7c2388-7ad0-4d25-98a7-0fa7b3be4a81",
+//         "first_name": "Rudolf",
+//         "last_name": "Austin",
+//         "email": "rudolf.austin@luchismart.com",
+//         "phone_number": "09087456545",
+//         "avatar_url": "https://eu.ui-avatars.com/api/?name=Rudolf+Austin&background=random&rounded=true",
+//         "email_verified_at": "2023-01-10T15:21:44.000000Z",
+//         "last_login_at": null,
+//         "created_at": "2023-01-10T15:21:44.000000Z",
+//         "updated_at": "2023-01-10T15:21:44.000000Z",
+//         "organization": null,
+//         "permissions": [
+//             {
+//                 "id": 1,
+//                 "name": "create organizations"
+//             },
+//             {
+//                 "id": 2,
+//                 "name": "edit organizations"
+//             },
+//             {
+//                 "id": 3,
+//                 "name": "delete organizations"
+//             },
+//             {
+//                 "id": 4,
+//                 "name": "view organizations"
+//             }
+//         ]
+//     }
+// }
+
+// // first organization created
+// {
+//     "status": true,
+//     "message": "Organization created successfully",
+//     "data": {
+//         "id": "c398fc76-efdb-436a-941f-390345c3cab7",
+//         "name": "Jarotechnologies",
+//         "email": "jarotechnologies@gmail.com",
+//         "phone_number": "Dumasaca@1991",
+//         "address": "#10 Rumuokparali",
+//         "address_line_2": null,
+//         "city": "Port Harcourt",
+//         "state": "Rivers",
+//         "country": "Nigeria",
+//         "created_at": "2023-01-10T15:32:26.000000Z",
+//         "updated_at": "2023-01-10T15:32:26.000000Z",
+//         "deleted_at": null
+//     }
+// }
+
+
+
+// orgs
+// {
+//     "status": true,
+//     "message": "Organizations retrieved successfully",
+//     "data": {
+//         "current_page": 1,
+//         "data": [
+//             {
+//                 "id": "8bad8f52-f6d1-4863-85f9-0fb1d63be910",
+//                 "name": "Klint Logistics",
+//                 "email": "klintlogistics@gmail.com",
+//                 "phone_number": "07063841227",
+//                 "address": "#10 Transformer Road-3, Rumuokparali",
+//                 "address_line_2": null,
+//                 "city": "Port Harcourt",
+//                 "state": "Rivers",
+//                 "country": "Nigeria",
+//                 "created_at": "2023-01-10T23:51:45.000000Z",
+//                 "updated_at": "2023-01-10T23:51:45.000000Z",
+//                 "deleted_at": null
+//             },
+//             {
+//                 "id": "d6bd58e9-e030-4c70-bdfc-77ca09328832",
+//                 "name": "Geomat",
+//                 "email": "geomat@gmail.com",
+//                 "phone_number": "07063840227",
+//                 "address": "#10 Transformer Road-3, Rumuokparali",
+//                 "address_line_2": null,
+//                 "city": "Port Harcourt",
+//                 "state": "Rivers",
+//                 "country": "Nigeria",
+//                 "created_at": "2023-01-10T23:45:28.000000Z",
+//                 "updated_at": "2023-01-10T23:45:28.000000Z",
+//                 "deleted_at": null
+//             }
+//         ],
+//         "first_page_url": "https://api-dev.luchismart.com/api/v1/admin/organizations?page=1",
+//         "from": 1,
+//         "last_page": 1,
+//         "last_page_url": "https://api-dev.luchismart.com/api/v1/admin/organizations?page=1",
+//         "links": [
+//             {
+//                 "url": null,
+//                 "label": "&laquo; Previous",
+//                 "active": false
+//             },
+//             {
+//                 "url": "https://api-dev.luchismart.com/api/v1/admin/organizations?page=1",
+//                 "label": "1",
+//                 "active": true
+//             },
+//             {
+//                 "url": null,
+//                 "label": "Next &raquo;",
+//                 "active": false
+//             }
+//         ],
+//         "next_page_url": null,
+//         "path": "https://api-dev.luchismart.com/api/v1/admin/organizations",
+//         "per_page": 20,
+//         "prev_page_url": null,
+//         "to": 2,
+//         "total": 2
+//     }
+// }
+
+
+// org superAdmin
+// {
+//     "status": true,
+//     "message": "Organization super admin user created successfully",
+//     "data": {
+//         "id": "d48db5ac-bdf5-4269-b832-13d49fc4f6c5",
+//         "first_name": "ezeugo",
+//         "last_name": "obieze",
+//         "email": "ezeugo@luchismart.com",
+//         "phone_number": "07060858438",
+//         "avatar_url": "https://eu.ui-avatars.com/api/?name=ezeugo+obieze&background=random&rounded=true",
+//         "email_verified_at": "2023-01-10T23:55:19.000000Z",
+//         "last_login_at": null,
+//         "created_at": "2023-01-10T23:55:20.000000Z",
+//         "updated_at": "2023-01-10T23:55:20.000000Z",
+//         "organization": {
+//             "organization_id": "d6bd58e9-e030-4c70-bdfc-77ca09328832",
+//             "branch_id": null,
+//             "department_id": null
+//         },
+//         "permissions": [
+//             {
+//                 "id": 5,
+//                 "name": "create users"
+//             },
+//             {
+//                 "id": 6,
+//                 "name": "edit users"
+//             },
+//             {
+//                 "id": 7,
+//                 "name": "delete users"
+//             },
+//             {
+//                 "id": 8,
+//                 "name": "view users"
+//             },
+//             {
+//                 "id": 9,
+//                 "name": "create employees"
+//             },
+//             {
+//                 "id": 10,
+//                 "name": "edit employees"
+//             },
+//             {
+//                 "id": 11,
+//                 "name": "delete employees"
+//             },
+//             {
+//                 "id": 12,
+//                 "name": "view employees"
+//             },
+//             {
+//                 "id": 13,
+//                 "name": "create branches"
+//             },
+//             {
+//                 "id": 14,
+//                 "name": "edit branches"
+//             },
+//             {
+//                 "id": 15,
+//                 "name": "delete branches"
+//             },
+//             {
+//                 "id": 16,
+//                 "name": "view branches"
+//             },
+//             {
+//                 "id": 17,
+//                 "name": "create departments"
+//             },
+//             {
+//                 "id": 18,
+//                 "name": "edit departments"
+//             },
+//             {
+//                 "id": 19,
+//                 "name": "delete departments"
+//             },
+//             {
+//                 "id": 20,
+//                 "name": "view departments"
+//             }
+//         ]
+//     }
+// }
+// {
+//     "status": true,
+//     "message": "Organization super admin user created successfully",
+//     "data": {
+//         "id": "ecdc7432-9deb-4d89-ab58-4fc2d5328057",
+//         "first_name": "sare",
+//         "last_name": "Austin",
+//         "email": "sare@luchismart.com",
+//         "phone_number": "09087456545",
+//         "avatar_url": "https://eu.ui-avatars.com/api/?name=sare+Austin&background=random&rounded=true",
+//         "email_verified_at": "2023-01-11T21:15:36.000000Z",
+//         "last_login_at": null,
+//         "created_at": "2023-01-11T21:15:36.000000Z",
+//         "updated_at": "2023-01-11T21:15:36.000000Z",
+//         "organization": {
+//             "organization_id": "8bad8f52-f6d1-4863-85f9-0fb1d63be910",
+//             "branch_id": null,
+//             "department_id": null
+//         },
+//         "permissions": [
+//             {
+//                 "id": 5,
+//                 "name": "create users"
+//             },
+//             {
+//                 "id": 6,
+//                 "name": "edit users"
+//             },
+//             {
+//                 "id": 7,
+//                 "name": "delete users"
+//             },
+//             {
+//                 "id": 8,
+//                 "name": "view users"
+//             },
+//             {
+//                 "id": 9,
+//                 "name": "create employees"
+//             },
+//             {
+//                 "id": 10,
+//                 "name": "edit employees"
+//             },
+//             {
+//                 "id": 11,
+//                 "name": "delete employees"
+//             },
+//             {
+//                 "id": 12,
+//                 "name": "view employees"
+//             },
+//             {
+//                 "id": 13,
+//                 "name": "create branches"
+//             },
+//             {
+//                 "id": 14,
+//                 "name": "edit branches"
+//             },
+//             {
+//                 "id": 15,
+//                 "name": "delete branches"
+//             },
+//             {
+//                 "id": 16,
+//                 "name": "view branches"
+//             },
+//             {
+//                 "id": 17,
+//                 "name": "create departments"
+//             },
+//             {
+//                 "id": 18,
+//                 "name": "edit departments"
+//             },
+//             {
+//                 "id": 19,
+//                 "name": "delete departments"
+//             },
+//             {
+//                 "id": 20,
+//                 "name": "view departments"
+//             }
+//         ]
+//     }
+// }
+
+
+// /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// {
+//   "userInfo": {
+//     "id": "d48db5ac-bdf5-4269-b832-13d49fc4f6c5",
+//     "first_name": "ezeugo",
+//     "last_name": "obieze",
+//     "email": "ezeugo@luchismart.com",
+//     "phone_number": "07060858438",
+//     "email_verified_at": "2023-01-10T23:55:19.000000Z",
+//     "last_login_at": null,
+//     "user_type": "super_admin",
+//     "avatar_url": null,
+//     "created_at": "2023-01-10T23:55:20.000000Z",
+//     "updated_at": "2023-01-10T23:55:20.000000Z",
+//     "deleted_at": null,
+//     "stripe_id": null,
+//     "pm_type": null,
+//     "pm_last_four": null,
+//     "trial_ends_at": null,
+//     "organization": {
+//       "organization_id": "d6bd58e9-e030-4c70-bdfc-77ca09328832",
+//       "branch_id": null,
+//       "department_id": null
+//     }
+//   }
+// }
+
+
+// {
+//     "id": "d6bd58e9-e030-4c70-bdfc-77ca09328832",
+//     "name": "Geomat",
+//     "email": "geomat@gmail.com",
+//     "phone_number": "07063840227",
+//     "address": "#10 Transformer Road-3, Rumuokparali",
+//     "address_line_2": null,
+//     "city": "Port Harcourt",
+//     "state": "Rivers",
+//     "country": "Nigeria",
+//     "created_at": "2023-01-10T23:45:28.000000Z",
+//     "updated_at": "2023-01-10T23:45:28.000000Z",
+//     "deleted_at": null
+// }
+
+
+
+// create employee
+{
+  "staff_id": "123456",
+  "name": "Genesis Mathew",
+  "email": "genesis.matthew@luchismart.com",
+  "phone_number": "",
+  "branch_id": "",
+  "department_id": "5d69b760-517a-4c92-936c-c8f39f300a8a",
+  "position_id": "",
+  "credentials": {
+    "FINGERPRINT": true,
+    "RFID_CARD": true,
+    "PIN": false,
+    "MOBILE_APP": true
+  },
+  "status": "present"
+}
+
+// created branch details
+[
+    {
+        "id": "489bc504-5b3b-41c0-a283-b31d57b70e0d",
+        "name": "Florida",
+        "email": "florida@luchismart.com",
+        "phone_number": "09065676566",
+        "address": "Plazo",
+        "city": "Florida",
+        "state": "Florida",
+        "country": "USA",
+        "organization_id": "d6bd58e9-e030-4c70-bdfc-77ca09328832",
+        "created_at": "2023-01-30T13:14:10.000000Z",
+        "updated_at": "2023-01-30T13:14:10.000000Z",
+        "deleted_at": null
+    },
+    
+]
+
+// create branch details
+{
+    "name": "Abuja",
+    "email": "abuja@luchismart.com",
+    "phone_number": "09065676569",
+    "address": "Nyanya plaza",
+    "city": "FCT",
+    "state": "Abuja",
+    "country": "Nigeria"
+}
+
+// test created employee
+{
+    "staff_id": "1233",
+    "name": "michael okon",
+    "email": "ceze1995@gmail.com",
+    "phone_number": "07060858438",
+    "branch_id": "691d3591-0763-413b-b0df-a6c2b05f93e1",
+    "department_id": "799b9379-f108-4068-8999-7f780c0ce644",
+    "position_id": "3132414e-569b-44c0-a26a-4eac082f53c4",
+    "status": "present",
+    "credentials": {
+        "FINGERPRINT": true,
+        "RFID_CARD": false,
+        "MOBILE_APP": true,
+        "PIN": false
+    }
+}
+
+// actual return data on create employee
+{
+    "id": "3cc919bb-c734-4f95-ac92-9c0bea0a9be3",
+    "staff_id": "1111",
+    "name": "michael okon",
+    "email": "ceze1995@gmail.com",
+    "department_id": null,
+    "position": null,
+    "organization_id": "d6bd58e9-e030-4c70-bdfc-77ca09328832",
+    "branch_id": "691d3591-0763-413b-b0df-a6c2b05f93e1",
+    "credentials": {
+        "FINGERPRINT": false,
+        "RFID_CARD": true,
+        "MOBILE_APP": true,
+        "PIN": false
+    },
+    "status": "present"
+}
+
+
+//  fingerPrint: false,
+//     rfid: false,
+//     mobile: false,
+//     pin: false,

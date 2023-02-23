@@ -1,0 +1,28 @@
+
+ 
+   .nav-text a {
+     display: flex;
+     align-items: center;
+    color: #000;
+    font-size: 18px;
+    height: 63px;
+    border-radius: 4px;
+    top: 25px;
+    font-weight: 600;
+    line-height: 27px;
+    margin: 3px;
+  }
+   .active :active {
+     background: rgba(192, 213, 214, 0.02)  ; 
+    /* border: 1px solid rgba(55, 167, 174, 0.5)  !important; */
+  }
+  
+  
+
+   .nav-text a:hover {
+    background: rgba(192, 213, 214, 0.02);
+    border: 1px solid rgba(55, 167, 174, 0.5);
+    box-shadow: 1px 4px 8px rgba(212, 227, 228, 0.05);
+    color: #37A7AE;
+    
+  }

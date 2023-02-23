@@ -1,0 +1,79 @@
+.modalBackground {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(17, 15, 15, 0.493);
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99999999999999999999999999999999999999999999999999999;
+}
+
+.modalContainer {
+    width: 97%;
+    max-width: 600px;
+    /* background-color: white; */
+    box-shadow: var(--shadoos);
+    padding: 10px;
+    text-align: center;
+    padding: 50px 10px;
+    z-index: 99999999999999999999999999999999999999999999999999999;
+}
+
+/* The token modal */
+/* .token-modal {
+    text-align: center;
+    color: var(--white-color);
+}
+
+.token-modal h3 {
+    font-size: var(--font-medium);
+    color: var(--white-color);
+    text-transform: capitalize;
+    font-weight: 500;
+    width: 70%;
+    margin: auto;
+    line-height: 30px;
+}
+
+.expired-modal {
+    text-align: center;
+    color: var(--white-color);
+    padding: 100px 10px;
+}
+
+.expired-modal h1 {
+    font-size: var(--font-larger);
+    color: var(--white-color);
+    text-transform: capitalize;
+    font-weight: 500;
+    width: 70%;
+    margin: auto;
+}
+
+.token-modal small {
+    font-size: var(--font-mid);
+    margin-top: 30px;
+    display: block;
+}
+
+.token-modal-div {
+    display: flex;
+    width: 250px;
+    justify-content: space-around;
+    align-items: center;
+    background: orange;
+    margin: 0;
+} */
+
+
+
+/* The media query */
+@media screen and (min-width: 1000px) {
+    .modalContainer {
+        width: 90%;
+    }
+}
