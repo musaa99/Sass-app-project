@@ -49,7 +49,7 @@ export default function JobTab({ data, error, setMethod, value }) {
           <Tab.Panel className={classNames("", "")}>
             <div className="form-control w-full mb-4">
               <label className="label">
-                <span className="label-text text-black/[0.85] text-[22px] font-medium">
+                <span className="label-text text-black/[0.85] text-[23px] font-medium">
                   Name
                 </span>
               </label>
