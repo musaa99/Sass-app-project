@@ -20,7 +20,7 @@ const Grant = ({ onClickgrant }) => {
 
   return (
     <div className="p-6 ">
-      <main className="bg-white  mr-[400px]">
+      <main className="bg-white mr-[400px]">
         <h1 class="font-bold text-sm mb-2 ml-1">Grant Access</h1>
 
         <form className="p-4" action="" onSubmit={handleSubmit}>
@@ -32,7 +32,7 @@ const Grant = ({ onClickgrant }) => {
             placeholder="Staff name"
             type="text"
           />
-          <label class="font-bold text-sm mb-2 ml-1">Email</label>
+          <label class="font-bold text-sm mb-2 ml-2">Email</label>
           <input
             class="w-full px-3 py-2 mb-1 border-2 border-gray-200 rounded-md focus:outline-none focus:border-indigo-500 transition-colors"
             value={email}
